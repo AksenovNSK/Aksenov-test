@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://habrahabr.ru/" />
+<title>Selenium-test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Selenium-test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=email_field</td>
+	<td>aksenov-test@rambler.ru</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>ahbrjltkmrf</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=go</td>
+	<td></td>
+</tr>
+<!--Check Header-->
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.logo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=a.logo</td>
+	<td>Хабрахабр</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Публикации</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Публикации</td>
+	<td>Публикации</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Пользователи</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Пользователи</td>
+	<td>Пользователи</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Хабы</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Хабы</td>
+	<td>Хабы</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Компании</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Компании</td>
+	<td>Компании</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Песочница</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Песочница</td>
+	<td>Песочница</td>
+</tr>
+<!--Check footer-->
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Профиль</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Профиль</td>
+	<td>Профиль</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Трекер</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Трекер</td>
+	<td>Трекер</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=(//a[contains(text(),'Настройки')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Настройки')])[2]</td>
+	<td>Настройки</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=(//a[contains(text(),'Публикации')])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Публикации')])[3]</td>
+	<td>Публикации</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=(//a[contains(text(),'Хабы')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Хабы')])[2]</td>
+	<td>Хабы</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=(//a[contains(text(),'Компании')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Компании')])[2]</td>
+	<td>Компании</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=(//a[contains(text(),'Пользователи')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Пользователи')])[2]</td>
+	<td>Пользователи</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=(//a[contains(text(),'Песочница')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Песочница')])[2]</td>
+	<td>Песочница</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=О сайте</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=О сайте</td>
+	<td>О сайте</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Правила</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Правила</td>
+	<td>Правила</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Помощь</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Помощь</td>
+	<td>Помощь</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Соглашение</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Соглашение</td>
+	<td>Соглашение</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Конфиденциальность</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Конфиденциальность</td>
+	<td>Конфиденциальность</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>xpath=(//a[contains(text(),'Реклама')])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=(//a[contains(text(),'Реклама')])[5]</td>
+	<td>Реклама</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Тарифы</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Тарифы</td>
+	<td>Тарифы</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Контент</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Контент</td>
+	<td>Контент</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Семинары</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Семинары</td>
+	<td>Семинары</td>
+</tr>
+<!--Check profile menu-->
+<tr>
+	<td>click</td>
+	<td>css=div.layout__row.layout__row_body</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.dropdown__user-info.user-info</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=a.dropdown__user-info.user-info</td>
+	<td>aksenov-test<br /> Профиль</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.n-dropdown-menu__item-link</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=a.n-dropdown-menu__item-link</td>
+	<td>Публикации</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Диалоги</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Диалоги</td>
+	<td>Диалоги</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Закладки</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Закладки</td>
+	<td>Закладки</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Настройки</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Настройки</td>
+	<td>Настройки</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Выйти</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Выйти</td>
+	<td>Выйти</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Выйти</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
